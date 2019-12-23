@@ -1,0 +1,30 @@
+@charset "UTF-8";
+.wrapper {
+    margin: 0 0;
+    padding: 0 0%;
+}
+
+.img-link a {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.img-link a .heading01{
+    color: white;
+    Z-index: 2;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transform: translate(0,-50%);
+    margin-bottom: 0;
+}
+
+.img-link a img {
+    display: block;
+}
+
+.img-link-wrap{
+    margin-bottom: 40px;
+}
